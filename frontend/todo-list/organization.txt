@@ -1,0 +1,21 @@
+src/
+├── components/         # Reusable React components
+│   ├── TaskList.js     # Displays the list of tasks
+│   ├── TaskItem.js     # Represents a single task (used in TaskList)
+│   ├── TaskForm.js     # Form to add/edit a task
+│   ├── Header.js       # A header for the app
+│   └── Footer.js       # A footer for the app (optional)
+├── pages/              # Page-level components (optional)
+│   ├── HomePage.js     # Main landing page for your app
+│   └── NotFound.js     # Page for handling 404 errors
+├── api/                # API utility functions
+│   └── tasks.js        # Contains methods for API requests (GET, POST, PUT, DELETE)
+├── context/            # Context for managing global state (optional)
+│   └── TaskContext.js  # Manages tasks state and logic
+├── styles/             # CSS or styling files
+│   ├── App.css         # Main styles for the app
+│   ├── TaskList.css    # Styles for TaskList component
+│   └── TaskForm.css    # Styles for TaskForm component
+├── App.js              # Main app component
+├── index.js            # Entry point
+└── setupTests.js       # Jest setup for testing (if needed)
