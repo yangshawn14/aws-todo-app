@@ -1,4 +1,3 @@
-# https://master.dai9eg2bawqry.amplifyapp.com/
 # AWS Todo App
 - A full-stack Todo application built with React, hosted on AWS Amplify, and powered by a serverless backend.
 
@@ -19,31 +18,35 @@
 Node.js
 AWS CLI
 A GitHub account
-Installation
-Clone the repository:
-
+# Installation
+- Clone the repository:
+```
 bash
 Copy
 Edit
 git clone https://github.com/your-username/aws-todo-app.git
-Navigate to the frontend directory:
-
+```
+- Navigate to the frontend directory:
+```
 bash
 Copy
 Edit
 cd aws-todo-app/frontend/todo-list
-Install dependencies:
-
+```
+# Install dependencies:
+```
 bash
 Copy
 Edit
 npm install
-Start the development server:
-
+```
+# Start the development server:
+```
 bash
 Copy
 Edit
 npm start
+```
 The app should now be running at http://localhost:3000.
 
 # Deployment
@@ -51,13 +54,11 @@ Push your code changes to the main branch on GitHub.
 AWS Amplify will automatically detect the changes and redeploy the app.
 Visit your app at the Amplify-provided URL.
 Environment Variables
-Make sure you configure the following environment variables in AWS Amplify:
+***Make sure you configure the following environment variables in AWS Amplify:***
 
-REACT_APP_API_URL: The URL of your backend API Gateway.
-Folder Structure
-plaintext
-Copy
-Edit
+- ***REACT_APP_API_URL***: The URL of your backend API Gateway.
+# Folder Structure
+```
 aws-todo-app/
 ├── frontend/
 │   └── todo-list/
@@ -69,5 +70,8 @@ aws-todo-app/
 │       └── package.json       # Dependencies
 ├── backend/                   # (Optional if your backend is not part of this repo)
 └── README.md                  # Project documentation
+```
 # Contributing
 Contributions are welcome! Feel free to submit issues or pull requests.
+# Hosted Web App
+## https://master.dai9eg2bawqry.amplifyapp.com/
