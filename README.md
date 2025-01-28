@@ -21,30 +21,18 @@ A GitHub account
 # Installation
 - Clone the repository:
 ```
-bash
-Copy
-Edit
 git clone https://github.com/your-username/aws-todo-app.git
 ```
 - Navigate to the frontend directory:
 ```
-bash
-Copy
-Edit
 cd aws-todo-app/frontend/todo-list
 ```
 # Install dependencies:
 ```
-bash
-Copy
-Edit
 npm install
 ```
 # Start the development server:
 ```
-bash
-Copy
-Edit
 npm start
 ```
 The app should now be running at http://localhost:3000.
